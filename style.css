@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(228, 228, 228);
+}
+.app {
+    margin-top: 9em;
+    width: 30em;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 100px 10px;
+    -webkit-border-radius: 10px 10px 100px 10px;
+    -moz-border-radius: 10px 10px 100px 10px;
+    -ms-border-radius: 10px 10px 100px 10px;
+    -o-border-radius: 10px 10px 100px 10px;
+}
+.ss {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+.input span {
+    font-size: .8em;
+    text-align: center;
+    padding-bottom: 7px;
+    margin-left: 10px;
+
+}
+.input input {
+    width: 90px;
+    aspect-ratio: 1/.7;
+    border: .5px solid rgb(214, 214, 214);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-weight: 800;
+    font-size: 1.87em;
+    opacity: 50%;
+}
+.input .y
+a {
+    width: 130px;
+   height: 60px;
+}
+
+
+hr {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+   margin-left: 15px;
+  opacity: 50%;
+
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    border: none;
+}
+
+.img {
+
+   
+
+ 
+    
+    color: white;
+   
+
+    width: 100px;
+  
+   margin-left: 20em;
+}
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    
+}
+.output h3 {
+    font-size: 1.8em;
+   color: rgb(0, 0, 0);
+}
+.asd {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.asd span {
+    font-size: 2.8em;
+    color: blueviolet;
+}
